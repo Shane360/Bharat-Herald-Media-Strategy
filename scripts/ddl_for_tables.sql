@@ -42,7 +42,7 @@ CREATE TABLE fact_ad_revenue (
 	edition_id VARCHAR(50),
     ad_category VARCHAR(100),
     quarter VARCHAR(50),
-    ad_revenue DECIMAL(10,2),
+    ad_revenue DECIMAL(38,2),
     currency VARCHAR(50),
     comments VARCHAR(500)
 );
